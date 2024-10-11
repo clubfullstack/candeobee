@@ -127,7 +127,7 @@
 
         <!-- Google Maps Static Iframe -->
         <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.956664974798!2d-46.654250!3d-23.563210!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0!2zMjPCsDMzJzQ3LjYiUyA0NsKwMzknMTUuMyJX!5e0!3m2!1sen!2sbr!4v1697038338936!5m2!1sen!2sbr" 
+            src="<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3648.6825768526583!2d-46.849194925164305!3d-23.865402872831694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cfb5c0594dd00f%3A0x73765541ef593005!2sEcovila%20SusTentar%3A%20hospedagens%20e%20viv%C3%AAncias%20na%20Natureza!5e0!3m2!1sen!2sbr!4v1728675576562!5m2!1sen!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
             allowfullscreen="">
         </iframe>
 
