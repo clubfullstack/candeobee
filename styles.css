@@ -37,6 +37,51 @@ section {
     margin: 20px auto;
 }
 
+#signup {
+    margin: 40px auto;
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+}
+
+#signup h2 {
+    text-align: center;
+    color: #333;
+}
+
+#signupForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#signupForm label {
+    margin-bottom: 5px;
+}
+
+#signupForm input,
+#signupForm textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#signupForm button {
+    padding: 10px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#signupForm button:hover {
+    background-color: #ff9900;
+}
+
 footer {
     background-color: #333;
     color: #fff;
