@@ -51,15 +51,15 @@
         }
 
         .event-image {
-            background-color: #555;
-            width: 300px;
-            height: 200px;
             margin: 20px auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            color: #fff;
-            font-size: 16px;
+            text-align: center; /* Centraliza a imagem */
+        }
+
+        .event-image img {
+            max-width: 100%; /* Faz com que a imagem não ultrapasse a largura da tela */
+            height: auto; /* Mantém a proporção da imagem */
+            display: block; /* Garante que a imagem seja exibida como bloco */
+            margin: 0 auto; /* Centraliza a imagem */
         }
 
         .social-links a {
@@ -118,7 +118,7 @@
         <p>A Agrofloresta regenerativa é um método de construir junto à Natureza utilizando métodos de permacultura.</p>
 
         <div class="event-image">
-            <img src="images/convite.jpg" alt="Arte do Evento" width="800" />
+            <img src="images/convite.jpg" alt="Arte do Evento" />
         </div>
 
         <h2>REDES SOCIAIS</h2>
@@ -137,7 +137,6 @@
             loading="lazy" 
             referrerpolicy="no-referrer-when-downgrade">
         </iframe>
-
 
         <h2>Quero Participar da Oficina de Agrofloresta</h2>
         <form id="signupForm">
