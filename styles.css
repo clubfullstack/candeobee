@@ -31,6 +31,12 @@ section {
     text-align: center;
 }
 
+#map {
+    height: 400px;
+    width: 100%;
+    margin: 20px auto;
+}
+
 footer {
     background-color: #333;
     color: #fff;
